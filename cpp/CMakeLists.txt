@@ -13,7 +13,8 @@ project(cpm_repro)
 if(NOT cpm_repro_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
   message(FATAL_ERROR "
   cpm_repro_SOURCE_DIR: ${cpm_repro_SOURCE_DIR}
-  project_SOURCE_DIR: ${project_SOURCE_DIR}
+  PROJECT_SOURCE_DIR: ${PROJECT_SOURCE_DIR}
+  example_SOURCE_DIR: ${example_SOURCE_DIR}
   ")
 endif()
 
