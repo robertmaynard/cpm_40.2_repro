@@ -17,6 +17,6 @@ if(NOT cpm_repro_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
   example_SOURCE_DIR: ${example_SOURCE_DIR}
   ")
 endif()
-
+message(STATUS "cpm_repro_SOURCE_DIR: ${cpm_repro_SOURCE_DIR}")
 
 
